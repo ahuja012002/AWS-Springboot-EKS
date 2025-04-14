@@ -10,6 +10,11 @@ We are not going to revisit the Spring boot Application again here :
 
 Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service that enables you to run Kubernetes seamlessly in AWS Cloud .
 
+### Here is the complete architecture :
+
+![diagram-export-4-12-2025-9_12_28-PM](https://github.com/user-attachments/assets/b7a9ca49-816a-4a39-90fb-65d0871c3f3b)
+
+
 In order to run our application on EKS, first thing we need to do is containerize our Spring boot Application i.e. Create Docker image for the application.
 
 To Create Docker image, we need to create dockerFile at the root of our spring boot project as shown in the screenshot :
